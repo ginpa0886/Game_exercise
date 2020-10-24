@@ -42,6 +42,13 @@ public class TalkManager : MonoBehaviour
                                                "그럼 일 좀 하나 해주면 좋겠는데....:0", 
                                                "내 집 근처에 떨어진 동전 좀 주워줬으면 해 :1"});
 
+        talkDate.Add(20 + 1000, new string[] { "루도의 동전? :1", 
+                                               "돈을 흘리고 다니면 못쓰지! :3",
+                                               "나중에 루도에게 한마디 해야겠어. :3", });
+        talkDate.Add(20 + 2000, new string[] { "찾으면 꼭 좀 갔다줘 : 1", });
+        talkDate.Add(20 + 5000, new string[] { "동전을 찾았다", });
+        talkDate.Add(21 + 2000, new string[] { "오오, 찾아줘서 고마워 : 2", });
+
 
     }
 

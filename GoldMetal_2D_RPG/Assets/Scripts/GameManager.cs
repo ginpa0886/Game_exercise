@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         {
             isAction = false;
             talkIndex = 0;
-            quesetManger.QuestCheck();
+            Debug.Log(quesetManger.QuestCheck(id));
             return;
         }
 
